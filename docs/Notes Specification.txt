@@ -1,0 +1,35 @@
+Piano Drills App:
+
+Name: Notes || PiaNotes || Pianotes
+Description: App that allows creation of short passages of music which can be practiced.
+
+Criteria:
+- User Story - My music teacher has given me a passage of music or short exercise to practice. I want to be able to record this in the App and have it be presented when I next open the app such that I can use it to warm up.
+- User Story - I want a random selection of warmup exercises selected from the list of exercises that I have added.
+- User Story - I should be able to register an account such that my created notes can be stored against my account and pulled into the app when I log in.
+
+Technical Criteria:
+- Mobile first design but should also work just as well in a Desktop Browser
+- Make use of AWS for backend, AWS Cognito for Auth(or Auth0)
+- Front end should use a JS framework such as React or Vue
+- Back end should use NodeJs but may be rewritten in Go at a later date
+- Need some front end library for allowing input of musical notes on a stave
+- Need some way of storing this musical note passage in persisted storage.
+
+Wish list:
+- Federated Login/Registration with Google
+
+Libraries of use:
+- https://github.com/AaronDavidNewman/Smoosic
+- https://github.com/0xfe/vexflow
+
+Todo:
+- Investigate front end libraries, have a play around and find out which ones do what we are after.
+- Front end wireframes
+- Design a backend that manages auth, registration and notational storage
+
+Docs to write:
+
+- Design diagram
+- Wireframes
+- User stories
